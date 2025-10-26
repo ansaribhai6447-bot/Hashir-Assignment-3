@@ -1,0 +1,114 @@
+<style>
+        @font-face {
+            font-family: Hashir;
+            src: url("Poppins,Raleway/Poppins/Poppins-Regular.ttf"),
+                url("Poppins,Raleway/Raleway/static/Raleway-Regular.ttf");
+        }
+
+        @font-face {
+            font-family: Hashir2;
+            src: url("Poppins,Raleway/Raleway/static/Raleway-Regular.ttf"),
+                url("Poppins,Raleway/Poppins/Poppins-Regular.ttf");
+        }
+
+        body {
+            width: 100vp;
+            height: 100vp;
+            font-family: Hashir;
+            /* justify-content: center;
+      align-items: center; */
+            background: linear-gradient(#07038f, #081b98c3);
+            margin: 17px;
+            border: 11px solid #5f04e6ba;
+            border-radius: 1px;
+                        box-shadow: 0.1px 0.1px 3px  rgba(19, 15, 15, 0.304);
+        }
+
+        * {
+            margin: 0;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            padding-top: 50px;
+            font-size: 44px;
+            text-align: center;
+            margin-bottom: 10px;
+            /* font-weight: 900; */
+            color: aliceblue;
+        }
+
+        p {
+            margin-right: 270px;
+            margin-left: 270px;
+            text-align: center;
+            letter-spacing: 0.8px;
+            font-size: 20px;
+            line-height: 1.5;
+            color: aliceblue;
+            margin-bottom: 45px;
+        }
+
+        .a {
+            /*  */
+            text-align: center;
+        }
+
+        form {
+            gap: 25px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        input,
+        textarea {
+            outline: none;
+            resize: none;
+            color: #fcfcfcf9;
+            background: transparent;
+            border: none;
+            border-bottom: 2px solid #c9dadc;
+            padding: 13px;
+            margin-bottom: 40px;
+            width: 70%;
+            font-size: 20px;
+        }
+
+        ::placeholder {
+            color: #e0e6e6;
+            /* your desired color */
+            opacity: 1;
+            /* make sure it's fully visible */
+            text-align: left;
+        }
+
+        #a {
+            background-color: #091db4;
+            /* box-shadow: -1px 1px  white; */
+        }
+
+        button{
+            width: 180px;
+            margin: auto;
+            background-color: #08038f3f;
+            color: aliceblue;
+            font-size: 25px;
+            padding: 13px;
+            border: 1px solid aliceblue;
+            border-radius: 1px;
+            margin-bottom: 50px;
+        }
+
+        button:hover{
+            background-color: #ffffffd5;
+        }
+
+        input:focus{
+            background-color: #fff;
+            color: black;
+        }
+
+        button:active{
+            color: white;
+        }
+    </style>
